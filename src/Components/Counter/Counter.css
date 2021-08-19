@@ -1,0 +1,18 @@
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.counterContent {
+  margin: 10% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.counterBtns {
+  padding: 5% 10%;
+}
