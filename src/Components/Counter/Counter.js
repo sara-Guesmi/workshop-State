@@ -50,7 +50,7 @@ class Counter extends Component {
       <div>
         <h1>This is a Counter :</h1>
         <div className="counterContent">
-          <Button variant="success" onClick={this.increment}>
+          <Button variant="success" onClick={() => this.increment()}>
             +
           </Button>
           <h2>{this.state.counter}</h2>
